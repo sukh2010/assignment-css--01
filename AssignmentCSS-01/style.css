@@ -1,0 +1,97 @@
+
+html{
+	background-color:  rgba(255, 192, 203, 0.596);
+	margin: 0;
+	padding: 0;
+}
+
+div.page-wrapper{
+	font-family: cursive;
+	font-weight: bold;
+} 
+
+header {  
+	background-image: url(images/1166662456_preview_e55792284de76396d1213b59d68ff8fb09a05eeb.jpg);
+	filter:blur(0.4px);
+	text-align: center;
+} 
+
+header h1, h2 {
+	color: red;
+	font-family: 'Dancing Script', cursive;
+	font-size: 35px;
+}
+
+h3 { 
+	color:red;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 25px;
+}
+
+p {
+	font-family: 'Slabo 27px', serif;
+	font-size: 20px;
+	color: lightseagreen;
+}	
+
+.page-wrapper{
+	padding:  0 150px 0 80px;
+	position:relative;
+	margin:0;
+}
+
+.requirements{
+	overflow: hidden;
+	width:800px;
+	padding: 10px 10px 10px 10px ;
+	background-color: aliceblue;
+	float: left;
+
+}
+
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #660c0c;
+}
+
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #7c8529;
+}
+
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #c38b4c;
+}
+
+footer{
+	float: right;
+	
+}
+
+aside {
+	float: right;
+    color:red;
+}
+
+.sidebar li a:link {
+	color: #0004fd;
+	}
+
+.sidebar li a:visited {
+	color: #ff00bb;
+	}
+
+.sidebar li a:active {
+	color: #ff00bb;
+	text-decoration: underline ;
+}
+
+
+ul::before{
+		content:"\2764";
+		color: rgb(0, 0, 0);
+
+}
